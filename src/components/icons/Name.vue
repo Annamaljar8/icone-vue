@@ -1,5 +1,5 @@
 <template>
     <div>
-        <h1>Name</h1>
+        <v-lazy-image src="../src/assets/icona_work_1.jpg"/>
     </div>
 </template>

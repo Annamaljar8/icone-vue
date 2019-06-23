@@ -4,10 +4,12 @@ import App from './App.vue'
 import { routes } from './routes';
 //import VueCarousel from 'vue-carousel';
 import VueCarousel from '@chenfengyuan/vue-carousel';
+import { VLazyImagePlugin } from "v-lazy-image";
 
 
 Vue.use(VueRouter);
 Vue.use(VueCarousel);
+Vue.use(VLazyImagePlugin);
 
 
 const router = new VueRouter({

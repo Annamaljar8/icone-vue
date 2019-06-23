@@ -38,11 +38,11 @@ export const routes = [
 
     },
     children: [
-       { path: '/icons/married', component: Married },
-       { path: '/icons/name', component: Name },
-       { path: '/icons/measure', component: Measure },
-       { path: '/icons/church', component: Church },
-       { path: '/icons/churchpainting', component: ChurchPainting },
+       { path: '/icons/married', name: 'married', component: Married },
+       { path: '/icons/name', name: 'name', component: Name },
+       { path: '/icons/measure', name: 'measure', component: Measure },
+       { path: '/icons/church', name: 'church', component: Church },
+       { path: '/icons/churchpainting', name: 'churchpainting', component: ChurchPainting },
    ]},
    { path: '/workshop', components: {
          default: AboutWorkshop,

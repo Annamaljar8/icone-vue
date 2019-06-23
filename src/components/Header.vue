@@ -1,9 +1,12 @@
 <template>
     <div class="content">
       <nav class="navbar navbar-expand-lg navbar-light navigation  nav-color">
-         <a class="navbar-brand " href="index.html">
+         <a class="navbar-brand">
            <ion-icon name="color-palette" width="30" height="30" class="d-inline-block align-top  nav-color"></ion-icon>
-           ИМ "СПАС"
+           <router-link
+             tag="li"
+             to="/"
+             class="dropdown-item navigation order" style="cursor: pointer">ИС СПАС</router-link>
          </a>
    <button class="navbar-toggler nav-color" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
        <span class="navbar-toggler-icon"></span>
@@ -73,11 +76,11 @@
               class="dropdown-item navigation " style="cursor: pointer">Абитуриенту</router-link>
             </div>
       </li>
-          <li class="nav-item p-1 order">
+          <li class="nav-item p-1">
               <router-link
               tag="li"
               to="/order"
-              class="dropdown-item navigation " style="cursor: pointer">Заказать Икону</router-link>
+              class="dropdown-item navigation order" style="cursor: pointer">Заказать Икону</router-link>
     </li>
   </ul>
   </div>
